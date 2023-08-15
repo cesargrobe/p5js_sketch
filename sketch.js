@@ -1,22 +1,22 @@
 
 function setup() {
 
-createCanvas(600, 600);
+    createCanvas(600, 600);
 
-background("white");
+    background("white");
 
 }
 
 function draw() {
 
-stroke("blue");
+    stroke("blue");
 
-fill("red");
+    fill("red");
 
-if(mouseIsPressed){
+    if (mouseIsPressed) {
 
-rect(mouseX, mouseY, 20, 35);
+        rect(mouseX, mouseY, 20, 35);
 
-}
+    }
 
 }
